@@ -1,0 +1,25 @@
+# Rapports generes (contiennent des renseignements personnels)
+*.csv
+*.html
+
+# Journaux et transcriptions PowerShell
+*.log
+PowerShell_transcript*.txt
+
+# Resultats de tests et d'analyse
+TestResults/
+testResults.xml
+coverage.xml
+
+# Paquets et sorties de compilation
+*.nupkg
+out/
+output/
+
+# Editeurs et systeme
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
